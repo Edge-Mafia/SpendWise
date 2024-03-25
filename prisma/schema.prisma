@@ -12,3 +12,70 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+
+model User {
+  id Int @id @default(autoincrement())
+  name String
+  userName String
+  email String
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+  bankAccounts BankAccount[]
+  spendingLimits SpendingLimit[]
+  weeklySpending WeeklySpending[]
+  goals Goal[]
+}
+
+model BankAccount {
+  id Int @id @default(autoincrement())
+  userId Int
+  plaidAccountId String @unique
+  currentBalance Float
+  user User @relation(fields: [userId], references: [id])
+  transactions Transaction[]
+}
+
+model Transaction {
+  id Int @id @default(autoincrement())
+  userId Int
+  bankAccountId Int
+  amount Float
+  date DateTime
+  merchantId Int?
+  bankAccount BankAccount @relation(fields: [bankAccountId], references: [id])
+  merchant Merchant? @relation(fields: [merchantId], references: [id])
+}
+
+model SpendingLimit {
+  id Int @id @default(autoincrement())
+  userId Int
+  limitAmount Float
+  period String
+  startDate DateTime
+  endDate DateTime
+  user User @relation(fields: [userId], references: [id])
+}
+
+model WeeklySpending {
+  id Int @id @default(autoincrement())
+  userId Int
+  weekStartDate DateTime
+  maxAmount Float
+  user User @relation(fields: [userId], references: [id])
+}
+
+model Goal {
+  id               Int       @id @default(autoincrement())
+  userId           Int
+  goalAmount       Float
+  achievedAmount   Float
+  user             User      @relation(fields: [userId], references: [id])
+}
+
+model Merchant {
+  id               Int       @id @default(autoincrement())
+  name             String
+  category         String
+  transactions     Transaction[]
+}
