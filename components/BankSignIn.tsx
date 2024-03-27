@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { usePlaidLink } from "react-plaid-link";
 
-axios.defaults.baseURL = process.env.DEFAULT_URL
+axios.defaults.baseURL = "http://localhost:3000" 
 
 function PlaidAuth({ publicToken }: {
   publicToken: string

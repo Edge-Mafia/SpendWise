@@ -1,10 +1,9 @@
 import BankSignIn from "@/components/BankSignIn"
-import { ReactNode } from "react"
 
 const DashboardPage = () => {
     return (
         <div>
-            This is dashboard
+            This is dashboard <br />
             <BankSignIn />
         </div>
     )
