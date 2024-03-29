@@ -1,10 +1,10 @@
 Welcome to SpendWise
 ====================
 
-A single platform for tracking your expenses accurately without the need for manual entry, helping you understand your finances better
+SpendWise is your ultimate companion for managing daily expenses effortlessly. With its intuitive interface and powerful features, SpendWise simplifies the process of tracking your spending habits. Whether it's groceries, bills, or leisure activities, this software allows you to categorize expenses in real-time, providing insightful reports and analysis to help you make informed financial decisions. Stay on top of your budget and take control of your finances with SpendWise.
 
 
-# Our USPs:
+# Our features
 
 **Smart Budgeting**
 
