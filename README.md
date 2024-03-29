@@ -4,7 +4,7 @@ Welcome to SpendWise
 A single platform for tracking your expenses accurately without the need for manual entry, helping you understand your finances better
 ---
 
-#Our USPs:
+# Our USPs:
 
 **Smart Budgeting**
 SpendWise helps you track your expenses and set realistic budgets for yourself. Receive alerts whenever you are nearing your limits, helping you keep things on track.
