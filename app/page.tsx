@@ -1,12 +1,11 @@
 import Link from "next/link";
+import { Button } from "@/components/ui/button"
+import BankSignIn from "@/components/BankSignIn";
+
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center text-4xl">
-      UI for the main home page to be made later
-      <Link href="/dashboard">
-        Go to dashboard
-      </Link>
-    </main>
+    <main className="bg-zinc-900"><BankSignIn /></main>
+    
   );
 }

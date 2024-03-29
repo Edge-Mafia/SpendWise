@@ -12,13 +12,18 @@ export async function POST(request: NextRequest) {
 
     try {
         const plaidClient = getPlaidClient();
+        console.log("API: get transaction: ", access_token, start_date, end_date);
+
         const transactionsResponse = await plaidClient.transactionsGet({
             access_token,
             start_date,
             end_date,
         });
+        // console.log("API: transaction response: ", transactionsResponse);
+
         return NextResponse.json(transactionsResponse.data);
     } catch (error) {
+        console.log("API: transaction error:");
         if (error instanceof Error)
             return NextResponse.json({ message: error.message }, { status: 500 });
     }
