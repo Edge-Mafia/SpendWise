@@ -7,18 +7,23 @@ A single platform for tracking your expenses accurately without the need for man
 # Our USPs:
 
 **Smart Budgeting**
+
 SpendWise helps you track your expenses and set realistic budgets for yourself. Receive alerts whenever you are nearing your limits, helping you keep things on track.
 
 **Automatic Transaction Sync**
+
 Link your bank accounts or credit cards to SpendWise, and watch as your transactions automatically populate. No manual data entry required!
 
 **Real-time insights**
+
 Get real-time tips and insights on how to save your money. Visualize your expenses with the help of graphs and charts, helping you to make effective financial decisions.
 
 **Expense Categorisation**
+
 Easily categorize transactions—whether it’s groceries, dining out, or bills. Understand where your money goes at a glance.
 
 **Customizable Categories**
+
 Tailor your expense categories to match your lifestyle. Whether it’s “Coffee Habits” or “Pet Supplies,” SpendWise lets you create personalized labels.
 
 
