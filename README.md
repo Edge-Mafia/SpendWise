@@ -1,3 +1,33 @@
+Welcome to SpendWise
+====================
+
+SpendWise is your ultimate companion for managing daily expenses effortlessly. With its intuitive interface and powerful features, SpendWise simplifies the process of tracking your spending habits. Whether it's groceries, bills, or leisure activities, this software allows you to categorize expenses in real-time, providing insightful reports and analysis to help you make informed financial decisions. Stay on top of your budget and take control of your finances with SpendWise.
+
+
+# Our features
+
+**Smart Budgeting**
+
+SpendWise helps you track your expenses and set realistic budgets for yourself. Receive alerts whenever you are nearing your limits, helping you keep things on track.
+
+**Automatic Transaction Sync**
+
+Link your bank accounts or credit cards to SpendWise, and watch as your transactions automatically populate. No manual data entry required!
+
+**Real-time insights**
+
+Get real-time tips and insights on how to save your money. Visualize your expenses with the help of graphs and charts, helping you to make effective financial decisions.
+
+**Expense Categorisation**
+
+Easily categorize transactions—whether it’s groceries, dining out, or bills. Understand where your money goes at a glance.
+
+**Customizable Categories**
+
+Tailor your expense categories to match your lifestyle. Whether it’s “Coffee Habits” or “Pet Supplies,” SpendWise lets you create personalized labels.
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
